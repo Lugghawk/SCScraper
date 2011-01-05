@@ -1,0 +1,9 @@
+--- 
+:base_url: http://www.gomtv.net
+:start: http://www.gomtv.net/2010gslopens3/vod/1336
+:end: http://www.gomtv.net/2010gslopens3/vod/1336
+:username: Bob
+:password: YoMamma
+:dump_dir: /home/bob/gom
+:debug: false
+
