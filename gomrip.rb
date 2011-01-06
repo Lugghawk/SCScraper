@@ -46,7 +46,7 @@ class GomRipper
     debug "ajax url: #{@config[:base_url] + url}"
     res = @http.get(@config[:base_url] + url)
     
-    return nil if res.content.length == 0
+    return nil if res.content == '0'
     return baseurl + res.content
     
   end
